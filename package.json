@@ -1,0 +1,29 @@
+{
+  "name": "getting-started-with-shunter",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "shunter": "*"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-stylelint": "^0.9.0",
+    "grunt-xo": "^0.16.0",
+    "stylelint": "^8.0.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "esnext": false,
+    "envs": [
+      "browser",
+      "jquery"
+    ],
+    "extension": [
+      "js"
+    ],
+    "ignore": [
+      "resources/js/ignoreme.js"
+    ]
+  }
+}
