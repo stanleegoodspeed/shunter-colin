@@ -6,9 +6,9 @@ When developing locally, be sure to run the grunt command to initiate the linter
 
 Before you commit your changes to git, run the following commands to make sure your code will pass the automated tests in Travis.
 
-	* make test
-	* make lint
-	* make start-backend & make start-frontend & sleep 5; make test-pa11y;
+	make test
+	make lint
+	make start-backend & make start-frontend & sleep 5; make test-pa11y;
 
 
 
